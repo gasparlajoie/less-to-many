@@ -1,0 +1,18 @@
+{
+  "name": "less-to-many",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "gasparlajoie <gasparlajoie@pm.me> (http://byrinth.mataroa.blog/)",
+  "bin": {
+    "less-watcher": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "chokidar": "^3.0.0",
+    "commander": "^10.0.0",
+    "less": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
