@@ -5,7 +5,7 @@
   "author": "gasparlajoie <gasparlajoie@pm.me> (http://byrinth.mataroa.blog/)",
   "license":"Apache-2.0-custom",
   "bin": {
-    "less-watcher": "index.js"
+    "less-to-many": "index.js"
   },
   "dependencies": {
     "chalk": "^5.6.2",
