@@ -32,6 +32,23 @@ node index.js -s path/to/src
 node index.js --src path/to/src
 ```
 
+Compile once and exit:
+```sh
+node index.js -o
+# or
+node index.js --once
+```
+
+Combine options:
+```sh
+node index.js --src path/to/src --once
+```
+
+## Options
+
+- `-s, --src <dir>` - Source directory to watch (default: `./`)
+- `-o, --once` - Compile only once then exit (default: false)
+
 ## Behavior
 - Scans and records imports via `parseDependencies` and initializes them with `initDependencies`.
 - Compiles a changed file with `compileLess` and recursively recompiles dependents via `compileWithDependents`.
