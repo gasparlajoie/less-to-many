@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "gasparlajoie <gasparlajoie@pm.me> (http://byrinth.mataroa.blog/)",
-  "license":"Apache-2.0-custom",
+  "license": "Apache-2.0-custom",
   "bin": {
     "less-to-many": "index.js"
   },
