@@ -1,0 +1,10 @@
+// Imports from parent directory — tests relative path resolution
+@import '../variables';
+@import '../mixins';
+
+.button {
+	color: @primary-color;
+	font-size: @font-size-base;
+	border-radius: @border-radius;
+	.text-truncate();
+}

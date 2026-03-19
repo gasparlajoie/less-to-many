@@ -1,0 +1,16 @@
+// Imports variables (without .less extension to test extension-inference)
+@import 'variables';
+
+.text-truncate() {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.clearfix() {
+	&::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
